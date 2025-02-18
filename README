@@ -1,16 +1,27 @@
-Ensimag 2A POO
-============================
+# 🔥🚒 Simulation de Lutte contre les Incendies par Robots  
 
-- src: contient les classes fournies par les enseignants
-  -> LecteurDonnees.java         : lit tous les elements d'un fichier de description de donnees (cases, incendies et robots) et les affiche.
-                                   A vous de MODIFIER cette classe (ou en ecrire une nouvelle) pour creer les objets correspondants à vos propres classes
-  -> TestLecteurDonnees.java     : lit un fichier de donnees et affiche son contenu
-  -> TestInvader                 : cree un simulateur "mini Invaders" dans une fenetre graphique
+## 📌 Description  
+Ce projet est une **application Java** permettant de **simuler une équipe de robots pompiers** évoluant de manière autonome dans un **environnement naturel**.  
+L’objectif est de coordonner les robots pour **éteindre tous les incendies le plus efficacement possible**.  
 
-- cartes: quelques exemples de fichiers de donnees
+## 🚀 Fonctionnalités  
+1. 🗺️ **Modélisation d’un environnement naturel** avec une carte, des incendies et des robots.  
+2. 🤖 **Déplacement contrôlé des robots** en fonction du terrain et de leurs capacités.  
+3. 📍 **Calcul des plus courts chemins** pour optimiser les interventions.  
+4. ⚡ **Coordination intelligente** des robots pour une extinction rapide du feu.  
+5. 🎨 **Interface graphique** fournie pour visualiser la simulation.  
 
-- bin/gui.jar: archive Java contenant les classes de l'interface graphique. Voir un exemple d'utilisation dans TestInvader.java
+## 🛠 Technologies utilisées  
+- **Langage** : Java  
+- **Paradigme** : Programmation Orientée Objet (POO)  
+- **Structures de données** : Collections Java (List, Map, Set)  
+- **Algorithmes** : A*, Dijkstra pour la recherche des chemins optimaux  
+- **Interface graphique** : JavaFX / Swing  
 
-- doc: la documentation (API) des classes de l'interface graphique contenues dans gui.jar. Point d'entrée: index.html
+## 🎯 Objectifs pédagogiques  
+Ce projet permet d’approfondir :  
+- 📦 **L’encapsulation et la délégation**  
+- 📂 **L’héritage et l’abstraction**  
+- 📊 **L’utilisation des collections Java**  
+- 🤖 **Les stratégies d’optimisation des déplacements et interventions**  
 
-- Makefile: quelques explications sur la compilation en ligne, notamment la notion de classpath et l'utilisation de gui.jar
